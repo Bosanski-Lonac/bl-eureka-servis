@@ -50,6 +50,9 @@ local.properties
 # STS (Spring Tool Suite)
 .springBeans
 
+# ActiveMQ
+/activemq-data/
+
 # Code Recommenders
 .recommenders/
 

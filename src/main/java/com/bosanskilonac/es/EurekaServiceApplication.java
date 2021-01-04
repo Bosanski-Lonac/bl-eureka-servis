@@ -13,7 +13,6 @@ public class EurekaServiceApplication {
 		SpringApplication.run(EurekaServiceApplication.class, args);
 		
 		BrokerService broker = new BrokerService();
-		//broker.setUseShutdownHook(false);
 		try {
 			broker.addConnector("tcp://localhost:61616");
 			broker.start();
